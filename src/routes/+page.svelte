@@ -42,4 +42,7 @@
 		<!--Ergebnis anzeigen (durch Variable sumb)-->
 		<span class="underline decoration-double">{sumb}</span>
 	</div>
+	<div class="sticky bottom-5">
+		<a href="https://github.com/LouisT2469/aegyptische_multiplikation">Code (Github)</a>
+	</div>
 </div>
