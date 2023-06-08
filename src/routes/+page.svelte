@@ -30,10 +30,10 @@
 	<!--Formular mit Ausführung der Funktion (Variabeln a1 und b1 werden auf a und b übergeben)-->
 	<form on:submit|preventDefault={() => AegyptenRechnen(a1, b1)}>
 		<!--Eingabe des Input auf Variable a1 binden (mit bind: usw.)-->
-		<input class="w-12 text-center outline-none" type="number" placeholder="a" bind:value={a1} />
+		<input class="w-12 text-center outline-none" type="number" placeholder="a" bind:value={a1} required/>
 		<span class="font-extrabold"> * </span>
 		<!--Eingabe des Input auf Variable b1 binden (mit bind: usw.)-->
-		<input class="w-12 text-center outline-none" type="number" placeholder="b" bind:value={b1} />
+		<input class="w-12 text-center outline-none" type="number" placeholder="b" bind:value={b1} required/>
 		<button class="hover:scale-125" title="rechnen">🚀</button>
 	</form>
 
