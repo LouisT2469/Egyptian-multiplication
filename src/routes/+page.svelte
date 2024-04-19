@@ -23,8 +23,8 @@
 
 <div class="flex justify-center items-center flex-col mt-16 space-y-4">
 	<div class="flex space-y-2 flex-col text-center">
-		<span class="text-3xl font-bold">Multiplikation wie die Ägypter</span>
-		<span>Louis Taube Klasse 10d</span>
+		<span class="text-3xl font-bold">Multiplication like the Egyptians</span>
+		<span>Louis Taube class 10d</span>
 	</div>
 
 	<!--Formular mit Ausführung der Funktion (Variabeln a1 und b1 werden auf a und b übergeben)-->
